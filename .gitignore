@@ -1,0 +1,6 @@
+.idea/
+target/
+resume-backend/target/
+*.iml
+.env
+application-local.properties
