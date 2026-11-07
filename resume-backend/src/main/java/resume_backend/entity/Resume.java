@@ -19,6 +19,8 @@ public class Resume {
     private String gender;
     private String phone;
     private String email;
+    private String linkedin;
+    private String github;
 
     private String class10;
     private String board10;
@@ -90,6 +92,23 @@ public class Resume {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String getLinkedin() {
+        return linkedin;
+    }
+
+    public void setLinkedin(String linkedin) {
+        this.linkedin = linkedin;
+    }
+
+    public String getGithub() {
+        return github;
+    }
+
+    public void setGithub(String github) {
+        this.github = github;
+    }
+
 
     public String getClass10() {
         return class10;
